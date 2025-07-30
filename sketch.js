@@ -167,6 +167,7 @@ function draw() {
 		}
 		if (!ball.enable && ballCount==0){
 			startFlag = false;
+			startButton.visible = true;
 		}
 	}
 	for (let i=0; i<items.length; i++){
